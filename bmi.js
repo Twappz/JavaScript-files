@@ -1,6 +1,6 @@
 function bmiCalculator(weightKg, heightMtr){
     
-     var bmi = Math.floor((weightKg/Math.pow(heightMtr,2)));
+     var bmi = Math.round((weightKg/Math.pow(heightMtr,2)));
     
     return bmi;
 }
