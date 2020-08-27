@@ -1,11 +1,11 @@
-function buyMilk(money){
+function buyMilk(money,costPerBottle){
 
     console.log("Move up");
     console.log("Move down");
-    console.log("You bought " + numberOfBottles(money,1.5) + " bottles of milk");
+    console.log("You bought " + numberOfBottles(money,costPerBottle) + " bottles of milk");
    
 
-    console.log("You have a change " + "of " +  "$ " + remainingChange(money,1.5) );
+    console.log("You have a change " + "of " +  "$ " + remainingChange(money,costPerBottle) );
 }
    
   function numberOfBottles(startingMoney,costPerBottle){
@@ -20,4 +20,4 @@ function remainingChange(startingMoney,costPerBottle){
 
 }
 
-buyMilk(5);
+buyMilk(10,2.5);
