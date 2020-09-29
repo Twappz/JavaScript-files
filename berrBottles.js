@@ -19,10 +19,19 @@ function deductBeer(){
                 
        }
    
-      
-   console.log(beerCount +" " + bword + " left"); 
+    
+    
+    
+       
+   console.log(beerCount +" " + bword + " of beer on the wall"); 
+   console.log(beerCount+ " " + bword + " of beer,");
 
+   console.log("Take one down, pass it around,");
+   
    beerCount--;
+
+   console.log(beerCount + " " + bword + " of beer on the wall.");
+   console.log(" \n");
    
    }while(beerCount>=1);
 }
